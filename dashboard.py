@@ -5,11 +5,12 @@ import numpy as np
 
 st.set_page_config(
     page_title="Dashboard Klasifikasi Sampah",
-    page_icon="♻️",
+    page_icon="assets/logo.png",
     layout="wide"
 )
 
-st.title("♻️ Dashboard Analisis Dataset Klasifikasi Sampah 2026")
+st.image("assets/logo.png", width=80)
+st.title("Dashboard Klasifikasi Sampah")
 
 # =====================
 # LOAD DATA
