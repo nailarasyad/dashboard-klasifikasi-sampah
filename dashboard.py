@@ -9,23 +9,14 @@ st.set_page_config(
     layout="wide"
 )
 
-col1, col2 = st.columns([0.8, 12])
+col1, col2 = st.columns([1, 15])
 
 with col1:
-    st.image("assets/logo.png", width=55)
+    st.markdown("<div style='margin-top:15px'></div>", unsafe_allow_html=True)
+    st.image("assets/logo.png", width=50)
 
 with col2:
-    st.markdown(
-        """
-        <h1 style="
-            margin-top: 8px;
-            margin-bottom: 0px;
-        ">
-        Dashboard Klasifikasi Sampah
-        </h1>
-        """,
-        unsafe_allow_html=True
-    )
+    st.title("Dashboard Klasifikasi Sampah")
     
 # =====================
 # LOAD DATA
