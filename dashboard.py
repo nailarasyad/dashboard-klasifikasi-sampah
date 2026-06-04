@@ -9,10 +9,10 @@ st.set_page_config(
     layout="wide"
 )
 
-col1, col2 = st.columns([1, 10])
+col1, col2 = st.columns([0.7, 10])
 
 with col1:
-    st.image("assets/logo.png", width=60)
+    st.image("assets/logo.png", width=50)
 
 with col2:
     st.title("Dashboard Klasifikasi Sampah")
